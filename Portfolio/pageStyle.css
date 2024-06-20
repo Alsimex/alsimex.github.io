@@ -1,0 +1,84 @@
+body {
+	background-color: #f0f0f0;
+	font-family: Courier New;
+}
+
+h1 {
+	margin: 15px 0px 0px 15px;
+	background-color: #f0f0f0;
+	text-align: center;
+	
+	height: 80px;
+	line-height: 80px;
+	width: 360px;
+	float: left;
+	display: block;
+	
+	outline-style: outset;
+	outline-width: 4px;
+	outline-color: #ffffff;
+}
+
+.content {
+	margin: auto;
+	max-height: 400px;
+	max-width: 400px;
+	padding: 50px;
+	text-align: center;
+	
+	outline-style: outset;
+	outline-width: 4px;
+	outline-color: #ffffff;
+}
+
+.topBar {
+	user-select: none;
+}
+
+.topLinks {
+	width: 385px;
+	margin: 3px;
+	clear: left;
+}
+
+.topLinks a{
+	margin-top: 25px;
+	margin-left: 12px;
+	margin-right: 12px;
+	min-width: 60px;
+	float: left;
+	color: #000000;
+	text-align: center;
+	padding: 12px 18px;
+	text-decoration: none;
+	
+	outline-style: outset;
+	outline-width: 4px;
+	outline-color: #ffffff;
+	
+}
+
+.topLinks a:hover {
+	background-color: #f0f0f0;
+	color: #000000;
+	
+	outline-style: inset;
+	outline-color: #ffffff;
+	
+}
+.topLinks a.active {
+	background-color: #606060;
+	color: #ffffff;
+	
+	outline-color: #808080;
+}
+.topLinks a.active:hover {
+	background-color: #606060;
+	color: #ffffff;
+	
+	outline-color: #808080;
+}
+
+.links {
+	font-size: 25px;
+}
